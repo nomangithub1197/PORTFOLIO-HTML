@@ -49,5 +49,5 @@
 - form data send to your email-- using formspree website
 - Multimedia
 - html5 elements 
-- Deploy
+- Deploy with netlify
 
