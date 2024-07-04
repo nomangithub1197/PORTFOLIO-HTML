@@ -1,5 +1,7 @@
 # HTML Learnings
 
+## Basic HTML
+
 1. How Websites Works?
 
 - Client-Server Model
@@ -35,5 +37,17 @@
 - Table
 - Form
 - Image
-- Depoy
+- Deploy
+
+## Intermediate HTML
+
+- Meta tag and SEO
+- Adding font-awesome icon and Google font
+  - font awesome cdn
+- Advanced table
+- Advanced form
+- form data send to your email-- using formspree website
+- Multimedia
+- html5 elements 
+- Deploy
 
