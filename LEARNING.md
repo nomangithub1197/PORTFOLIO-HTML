@@ -51,3 +51,21 @@
 - html5 elements 
 - Deploy with netlify
 
+## Advanced HTML
+
+- More advanced form
+  - <input type="color">
+  - <input type="range">
+  - datalist
+  - fieldset
+  - legend
+- Web Accessibility
+- HTML5 API
+- HTML Templates and Web Components
+- Source for symbols, icons, emoji, color.
+ - symbol.cc website
+ - copychar.cc website
+ - colorhunt.co website
+ - unsplash.com for image
+- HTML learning resource.
+  - htmldog.com

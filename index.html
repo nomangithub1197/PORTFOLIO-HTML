@@ -105,26 +105,6 @@
         <meter id="experiencemeter" min="0" max="10" value="5"></meter>
     </div>
     
-    
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVASCRIPT
-                <ol>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Angular.js</li>
-                    <li>Express.js</li>
-                </ol>
-            </li>
-            
-            <li>MongoDB</li>
-            <li>Typescript</li>
-        </ul>
-        <dl>
-            <dt>HTML</dt>
-            <dd>HTML is a markup Language</dd>
-        </dl>
     </section>
     
     <section id="Projects">
@@ -147,19 +127,45 @@
         <h2>Contact Me</h2>
         <form action="https://formspree.io/f/mrbzgyza"
         method="POST">
+         <fieldset>
+            <legend>Personal Information</legend>
+            <div>
+                <label for="name">Name : </label>
+             <input type="text" id="name" name="name" required>
+             </div>
+             <div>
+                <label for="email">Email : </label>
+             <input type="email" id="email" name="email" required>
+             </div>
+             <div>
+                <label for="age">Age : </label>
+             <input type="number" id="age" name="age" min="18" max="60" required>
+             </div>
+         </fieldset>
+
          <div>
-            <label for="name">Name : </label>
-         <input type="text" id="name" name="name" required>
+            <label for="favourite">Favourite Color : </label>
+         <input type="color" id="favourite" name="favourite" value="#ff0000" required>
+         </div>
+
+         <div>
+            <label for="experience">Number of years web development : </label>
+         <input type="range" id="experience" name="experience" min="0" max="10" required>
+         </div>
+
+         <div>
+            <label for="programming">Programming Language : </label>
+         <input list="language" id="programming" name="programming" required>
+
+         <datalist id="language">
+            <option value="C">
+            <option value="C++">
+            <option value="C#">
+            <option value="Python">
+            <option value="JAVASCRIPT">        
+         </datalist>
          </div>
          
-         <div>
-            <label for="email">Email : </label>
-         <input type="email" id="email" name="email" required>
-         </div>
-         <div>
-            <label for="age">Age : </label>
-         <input type="number" id="age" name="age" min="18" max="60" required>
-         </div>
          <div>
             <label for="website">Website : </label>
             <input type="url" id="website" name="website" pattern="https?://.+">
